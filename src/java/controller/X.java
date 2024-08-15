@@ -20,7 +20,7 @@ public class X extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getServletContext().setAttribute("message", "1000");
+        request.getServletContext().setAttribute("message", "1002");
         request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 
