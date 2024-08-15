@@ -14,7 +14,7 @@
     </head>
     <body>
 
-        <h1>${sessionScope.message}</h1>
+        <h1>${applicationScope.message}</h1>
         
     </body>
 </html>
