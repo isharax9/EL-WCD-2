@@ -15,10 +15,10 @@
     <body>
         <%-- Set an attribute for demonstration --%>
         <%
-            request.setAttribute("message", "Welcome to JSP with EL!");
+            pageContext.setAttribute("message", "Welcome to JSP with EL!");
         %>
         
-        <h1>${message}</h1>
+        <h1>${pageScope.message}</h1>
     </body>
 </html>
 
