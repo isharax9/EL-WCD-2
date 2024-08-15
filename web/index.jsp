@@ -13,12 +13,9 @@
         <title>EL</title>
     </head>
     <body>
-        <%-- Set an attribute for demonstration --%>
-        <%
-            pageContext.setAttribute("message", "Welcome to JSP with EL!");
-        %>
+
+        <h1>${requestScope.message}</h1>
         
-        <h1>${pageScope.message}</h1>
     </body>
 </html>
 
